@@ -1,0 +1,40 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#album-view img {
+  border: 5px solid #1f274b;
+  margin: 10px;
+  padding: 0px;
+  height: 250px;
+  margin-left: 60px;
+  border-radius: 20px;
+}
+
+#modal-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-view img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#modal-view.hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

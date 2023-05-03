@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PET´S co</title>
+     <link rel="stylesheet" type="text/css" href="styles/estilo.css" media="Screen">
+     <link rel="shortcut icon" href="/images/favicon.ico" type="images/x-icon">
+</head>
+<body>
+<!-- Barra principal-->
+<nav class="barra">
+  <div class="logo"><a href="proyecto_tienda.html">
+    <img src="images/logo3.png" alt="Logo">
+  </a></div>
+  <button class="toggle-menu">&#9776;</button>
+  <ul class="enlaces">
+    <li class="paginas"><a href="fotos.html">Galeria</a></li>
+    <li class="paginas"><a href="preguntas.html">Preguntas</a></li>
+    <li class="paginas"><a href="servicios.html">Servicios</a></li>
+    <li class="paginas"><a href="carrocompras.html">Compra</a></li>
+    <li class="paginas"><a href="./php/signup.php">Sesión</a></li>
+  </ul>
+  <h1 id="reloj"></h1>
+</nav>
+
+                          <!-- Carussel Imágenes-->                  
+                        <div class="slideshow-container">
+                            <div class="slideshow">
+                              <img src="images/banner1.png">
+                              <img src="images/banner2.png">
+                              <img src="images/banner3.png">
+                            </div>
+                            <div class="circles">
+                              <span class="circle active" onclick="currentSlide(1)"></span>
+                              <span class="circle" onclick="currentSlide(2)"></span>
+                              <span class="circle" onclick="currentSlide(3)"></span>
+                            </div>
+                          </div>
+
+                          <!-- Bloque 1-->
+                        <div class="block">
+                            <img src="images/perrocomiendo.jpg" alt="Imagen">
+                            <div class="textbloque">
+                            <h2>¿Sabias que?</h2>
+                              <p>Los perros pueden ser intolerantes a ciertos alimentos: 
+                                Al igual que los humanos, algunos perros pueden tener 
+                                intolerancias o alergias a ciertos alimentos. El trigo, 
+                                la soja, el maíz y los productos lácteos son algunos de 
+                                los alimentos que pueden causar problemas de salud en 
+                                los perros.</p>
+                           </div>
+                      </div>
+
+                          <!-- Bloque 2-->
+                    <div class="block">
+                        <div class="textbloque">
+                        <h2>¿Sabias que?</h2>
+                          <p>Los gatos pueden ser muy quisquillosos con la comida: 
+                            A algunos gatos les encanta comer todo lo que se les da, 
+                            pero otros pueden ser muy selectivos. Algunos gatos 
+                            prefieren alimentos húmedos, mientras que otros prefieren 
+                            alimentos secos. </p>
+                       </div>
+                       <img src="images/gatocomiendo.jpg" alt="Imagen">
+                  </div>
+
+        <h3 class="parrafo" align="Center"> Aqui es donde puedes encontrar la tienda PET'S co: </h3>
+<div id="mapa">
+<p align="Center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1825.5281437868223!2d-99.09645030768604!3d19.625571481820252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f3fe4288c08f%3A0xde0012c4ee1ca697!2sCentro%20Comercial%20La%20Placita!5e0!3m2!1ses-419!2smx!4v1609583960514!5m2!1ses-419!2smx" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></iframe></p>
+</div>
+
+            <a href="carrocompras.html" class="btn-flotante">Compra ahora</a>
+
+            <div id="mi-popup">
+              <h2>¡Bienvenido a mi sitio web!</h2>
+              <p>Esta es una ventana emergente que aparecerá cada cierto tiempo.</p>
+              <button id="cerrar-popup">Cerrar</button>
+            </div>
+            
+
+
+               <p class="pie">
+              ©  Copyright 2023
+              <br>
+              <img src="images/facebook.png" alt="Descripción de la imagen" width="20" height="20" >
+              <img src="images/instagram.png" alt="Descripción de la imagen" width="20" height="20" > 
+              PET´S co 
+               </p>
+
+               <script src="scripts/script.js"></script> 
+</body>
+</html>

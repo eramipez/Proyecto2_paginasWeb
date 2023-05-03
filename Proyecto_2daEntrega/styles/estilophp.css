@@ -1,0 +1,34 @@
+/*Barra de navegación */
+
+.barra {
+    font-size: 0;
+    background-color: #1f274b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+  }
+  
+  .enlaces {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .paginas {
+    margin-right: 20px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .paginas:last-child {
+    margin-right: 0;
+  }
+
+  .logo img {
+    height: 60px;
+  }

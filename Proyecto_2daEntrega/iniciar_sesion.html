@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PET´S co</title>
+    <link rel="stylesheet" type="text/css" href="styles/estilo.css" media="Screen">
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+</head>
+
+<body>
+
+                            <!-- Barra principal-->
+                            <nav class="barra">
+                              <div class="logo"><a href="proyecto_tienda.html">
+                                <img src="images/logo3.png" alt="Logo">
+                              </a></div>
+                              <button class="toggle-menu">&#9776;</button>
+                              <ul class="enlaces">
+                                <li class="paginas"><a href="fotos.html">Galeria</a></li>
+                                <li class="paginas"><a href="preguntas.html">Preguntas</a></li>
+                                <li class="paginas"><a href="servicios.html">Servicios</a></li>
+                                <li class="paginas"><a href="carrocompras.html">Compra</a></li>
+                                <li class="paginas"><a href="./php/signup.php">Sesión</a></li>
+                              </ul>
+                              <h1 id="reloj"></h1>
+                            </nav>
+
+<br>
+
+
+
+    <fieldset class="new">
+        <form action="./php/sesion.php" method="POST">
+            <p class="compras">INICIA SECIÓN</p>
+                 <p>Porfavor llena los siguientes campos:</p>
+         <p><input type="Text" name ="Nombre" placeholder="Nombre"></p>
+         <p><input type="Text" name= "Apodo" placeholder="Apodo"></p>
+         <p><input type="email" name = "Email" placeholder="Correo Electronico"></p>
+         <p><input type="email" name = "EmailR" placeholder="Repite El Correo Electronico"></p>
+         <p><input type="password" name = "Contraseña" placeholder="Contraseña"></p>
+         <p><input type="password" name = "ContraseñaR" placeholder="Repite Contraseña"></p><br>
+             <br>
+             <br>
+         <p><b>¿Deseas recibir notificaciones de alguna promocion?</b></p>
+         <p><input type="Radio" name="Opciones" id="1" value="Si">Si deseo<br></p>
+         <p><input type="Radio" name="Opciones" id="2" value="No">No deseo<br><br></p>
+         <br>
+         <p align="Center"><input type="submit" value="Crear cuenta">&nbsp; &nbsp;<input type="submit" value="iniciar sesion"></p>
+       </fieldset>
+       <embed src="./video/m5.mp3" autostarty="true" loop="true" volumen="10" width="0" height="0">
+       </fieldset>
+    </form>
+
+    <a href="compras.html" class="btn-flotante">Compra ahora</a>
+
+
+    <p class="pie">
+   ©  Copyright 2023
+   <br>
+   <img src="images/facebook.png" alt="Descripción de la imagen" width="20" height="20" >
+   <img src="images/instagram.png" alt="Descripción de la imagen" width="20" height="20" > 
+   PET´S co 
+    </p>
+
+</body>
+</html>
